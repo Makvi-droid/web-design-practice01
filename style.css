@@ -3,10 +3,10 @@
 }
 
 body{
-    background-image: url(bg-image.jpg);
+    background-image: url(bg-image2.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: auto 100%;
+    background-size: cover;
     background-attachment: fixed;
 }
 
