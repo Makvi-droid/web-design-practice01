@@ -2,6 +2,14 @@
     --font-fam: 'Montserrat', 'Roboto', 'Ubuntu', 'Titillium Web';
 }
 
+body{
+    background-image: url(bg-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-attachment: fixed;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -18,6 +26,7 @@
     position: relative;
     left: 1.4cm;
     font-family: 'Teko', 'Open Sans';
+    letter-spacing: 1px;
 }
 
 .navigation ul{
@@ -32,5 +41,6 @@ a{
     text-decoration: none;
     color: black;
     font-family: 'Teko', 'Open Sans';
-    font-size: clamp(0.3rem, calc(0.6vw + 2vh), 4rem);
+    font-size: clamp(0.3rem, calc(0.6vw + 1.7vh), 3rem);
+    letter-spacing: 1.2px;
 }
