@@ -11,16 +11,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
-}
-
-.header .navigation{
-    margin-top: 1.6cm;
+    margin-top: 1cm;
 }
 
 .header h1{
     position: relative;
     left: 1.4cm;
+    font-family: 'Teko', 'Open Sans';
 }
 
 .navigation ul{
@@ -34,4 +31,6 @@
 a{
     text-decoration: none;
     color: black;
+    font-family: 'Teko', 'Open Sans';
+    font-size: clamp(0.3rem, calc(0.6vw + 2vh), 4rem);
 }
