@@ -1,5 +1,5 @@
 :root{
-    --font-fam: 'Montserrat', 'Roboto', 'Ubuntu', 'Titillium Web';
+    --font-fam: 'Kanit', 'Ubuntu', 'Titillium Web';
 }
 
 body{
@@ -38,12 +38,30 @@ body{
     right: 3cm;
 }
 
+.navigation a::before {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.navigation a:hover::before {
+    transform: scaleX(1);
+}
+
 a{
     text-decoration: none;
     color: black;
     font-family: 'Teko', 'Open Sans';
     font-size: clamp(0.3rem, calc(0.6vw + 1.7vh), 3rem);
     letter-spacing: 1.2px;
+    position: relative;
+    overflow: hidden;
 }
 
 .booking{
@@ -66,7 +84,7 @@ a{
 
 .booking-content tr{
     font-size: clamp(10px, 1.1rem, 4rem);
-    font-family: 'Kanit', 'Ubuntu', 'Titillium Web';
+    font-family: var(--font-fam);
     gap: 2cm;
 }
 
@@ -82,7 +100,7 @@ th{
 
 #size{
     font-size: 13px;
-    font-family: 'Kanit', 'Ubuntu', 'Titillium Web';
+    font-family: var(--font-fam);
     font-weight: bold;
     padding-left: 2px;
 }
@@ -95,13 +113,36 @@ th{
     background-color: #ca6dfc;
     border: none;
     transition: 0.5s;
-    font-family: 'Kanit', 'Ubuntu', 'Titillium Web';
+    font-family: var(--font-fam);
     font-weight: bold;
     font-size: clamp(10px, 1rem, 4rem);
 }
 
 .booking-btn:hover{
     background-color: #b637fa;
+}
+
+.sub-head{
+    position: relative;
+    top: 4cm;
+    font-size: clamp(20px, 2.7rem, 4rem);
+    padding-left: 2cm;
+    font-family: 'Rowdies';
+    color: whitesmoke;
+}
+
+.para{
+    padding-top: 19px;
+    font-size: clamp(20px, 0.2rem, 2rem);
+}
+
+.how a{
+    color: aliceblue;
+    transition: 0.3s;
+}
+
+.how a:hover{
+    color: #ca6dfc;
 }
 
 
