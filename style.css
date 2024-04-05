@@ -27,6 +27,7 @@ body{
     left: 1.4cm;
     font-family: 'Teko', 'Open Sans';
     letter-spacing: 1px;
+    font-size: clamp(10px, 2rem, 3rem);
 }
 
 .navigation ul{
