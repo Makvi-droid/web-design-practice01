@@ -65,13 +65,43 @@ a{
 }
 
 .booking-content tr{
-    font-size: clamp(10px, 1.3rem, 4rem);
-    font-family: 'Kanit';
+    font-size: clamp(10px, 1.1rem, 4rem);
+    font-family: 'Kanit', 'Ubuntu', 'Titillium Web';
     gap: 2cm;
+}
+
+.booking-content .line{
+    border-right: 1px solid black;
+    height: 1.4cm;   
 }
 
 th{
     width: 5cm;
+    letter-spacing: 2px;
+}
+
+#size{
+    font-size: 13px;
+    font-family: 'Kanit', 'Ubuntu', 'Titillium Web';
+    font-weight: bold;
+    padding-left: 2px;
+}
+
+.booking-btn{
+    height: 1.3cm;
+    width: 4.7cm;
+    cursor: pointer;
+    border-radius: 7px;
+    background-color: #ca6dfc;
+    border: none;
+    transition: 0.5s;
+    font-family: 'Kanit', 'Ubuntu', 'Titillium Web';
+    font-weight: bold;
+    font-size: clamp(10px, 1rem, 4rem);
+}
+
+.booking-btn:hover{
+    background-color: #b637fa;
 }
 
 

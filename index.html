@@ -27,10 +27,19 @@
     <div class="booking">
         <table class="booking-content">
             <tr class="booking-row">
-                <th id="plane"><i class="fa-solid fa-plane"></i>Airport Arrival?</th>   
-                <th id="date"><i class="fa-solid fa-calendar-days"></i>Date</th>          
-                <th id="time"><i class="fa-solid fa-clock"></i>Time</th>              
-                <th id="luggage-size">Luggage Size</th>             
+                <th id="plane" class="line"><i class="fa-solid fa-plane"></i>Airport Arrival?</th>   
+                <th id="date" class="line"><i class="fa-solid fa-calendar-days"></i>Date</th>          
+                <th id="time" class="line"><i class="fa-solid fa-clock"></i>Time</th>              
+                <th id="luggage-size" class="line">
+                    <label for="size">Luggage Size
+                    </label>
+                    <select name="size" id="size"><i class="fa-solid fa-caret-down" style="color: #7953e9;"></i>
+                        <option></option>
+                        <option value="1">Size 1</option>
+                        <option value="2">Size 2</option>
+                        <option value="3">Size 3</option>
+                    </select>
+                </th>             
                 <th id="transfer"><button class="booking-btn">Book your transfer</button></th>
             </tr>
         </table>
