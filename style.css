@@ -45,3 +45,11 @@ a{
     font-size: clamp(0.3rem, calc(0.6vw + 1.7vh), 3rem);
     letter-spacing: 1.2px;
 }
+
+.booking{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 28px;
+}
