@@ -51,5 +51,28 @@ a{
     justify-content: center;
     align-items: center;
     position: relative;
-    top: 28px;
+    top: 2cm; 
 }
+
+.booking-content{
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.booking-content tr{
+    font-size: clamp(10px, 1.3rem, 4rem);
+    font-family: 'Kanit';
+    gap: 2cm;
+}
+
+th{
+    width: 5cm;
+}
+
+
+
